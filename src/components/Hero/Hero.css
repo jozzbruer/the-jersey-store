@@ -4,7 +4,6 @@
     left: 0px;
     top: 0px;
     background: #121517;
-   
     clip-path: polygon(100% 0%, 100% 79%, 41% 100%, 0 95%, 0 0);
 }
 .title{
@@ -16,27 +15,63 @@
     color: #fff;
     margin: 30px;
 }
+.container{
+    margin-top:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 800px;
+}
 
 
 .img1{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 57px;
-    top: 700px;
-}
-.img2{
-    position: absolute;
-    width: 173px;
-    height: 126px;
-    left: 980px;
-    top: 300px;
-}
-.Hero-Img{
-    position: absolute;
-    width: 500px;
+    width: 25%;
     height: 700px;
-    left: 372px;
-    top: 200px;
+}
+.img1 img{
+    float: right;
+    margin-top: 100%;
+}
+
+.img2{
+    width: 25%;
+    height: 700px;
+}
+.img2 img{
+    margin-top: 50%;
+}
+
+.Hero-Img{
+    width: 33%;
+    height: 800px;
     background: #fff;
+} 
+
+.buttons{
+    float: right;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shop__button{
+    margin-left: 60%;
+    width: 200px;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.shop__button:hover{
+    background: #121517;
+    border-radius: 10px;
+    color: #FFFFFF;
 }
