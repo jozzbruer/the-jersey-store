@@ -1,7 +1,26 @@
-.Slider{
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.Slider-Box{
     width: 100%;
-    height: 1000px;
-    left: 0px;
-    top: 1293px;
-    background: #FFFFFF;
+    height: 2000px;   
+}
+
+.slider__images__box{
+    width: 50%;
+    margin: 10rem auto;
+    height: 500px;
+}
+.slide img{
+    width: 19.5rem;
+    margin: 0 auto;
+}
+
+.slide{
+    transform: scale(0.9);
+    transition: 300ms;
+}
+
+.ActiveSlide{
+    transform: scale(1.1);
+    opacity: 1;
 }
