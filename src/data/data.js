@@ -15,15 +15,16 @@ const Images = [
         'url':'https://i.ibb.co/xjpBg5j/IMG-9620.jpg'
     },
     {
-        'id': 4,
-        'name': 'image 4',
-        'url':'https://i.ibb.co/1TqPVWk/IMG-9657.jpg'
-    },
-    {
         'id': 5,
         'name': 'image 5',
         'url':'https://i.ibb.co/VxtFLQy/IMG-9660-1.jpg'
+    },
+    {
+        'id': 4,
+        'name': 'image 4',
+        'url':'https://i.ibb.co/1TqPVWk/IMG-9657.jpg'
     }
+    
 ]
 
 export default Images
