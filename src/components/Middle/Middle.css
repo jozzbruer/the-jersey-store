@@ -1,0 +1,19 @@
+.middle-container{
+    width: 100%;
+    max-height: 1200px;
+    display: flex;
+}
+
+.pic1{
+    width: 50%;
+    height: 880px;
+    background-image: url('https://i.ibb.co/yYMKc5W/IMG-9612.jpg') ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
+.pic2{
+    width: 50%;
+    background-image: url('https://i.ibb.co/VxtFLQy/IMG-9660-1.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+}
